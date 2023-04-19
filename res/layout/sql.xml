@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".SQLActivity" >
+
+    <Button
+        android:id="@+id/c_db"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SQL" />
+    
+    <Button
+        android:id="@+id/add_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始画图" />
+    
+    <com.example.heyuming_10182267.paintActivity 
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        </com.example.heyuming_10182267.paintActivity>
+        
+</LinearLayout>
